@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-tasks-negative {
+  margin: 0 1rem;
+  border: 2px solid red;
+  border-radius: 0.25rem
+}
+
+.button-tasks-positive {
+  margin: 0 1rem;
+  border: 2px solid rgb(97, 250, 97);
+  border-radius: 0.25rem
+}
+
+.after-btn-affirmative, .after-btn-negative {
+  transition: all 0.1s ease-in;
+}
+
+.after-btn-negative:hover {
+  background: rgb(243, 67, 67);
+  color: white;
+  font-weight: 600;
+  transform: scale(1.04);
+}
+
+.after-btn-affirmative:hover {
+  background: rgb(31, 250, 31);
+  font-weight: 600;  
+  transform: scale(1.04);
+}
